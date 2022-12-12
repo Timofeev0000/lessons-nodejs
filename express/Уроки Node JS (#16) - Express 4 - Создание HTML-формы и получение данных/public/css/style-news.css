@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+.block {
+    background-color: burlywood;
+}
+
+.block h1 {
+    text-align: center;
+}
+
+.block p {
+    text-align: center;
+}

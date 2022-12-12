@@ -1,0 +1,12 @@
+.block {
+    border-radius: 20%;
+    background-color: burlywood;
+}
+
+.block h1 {
+    text-align: center;
+}
+
+.block p {
+    text-align: center;
+}

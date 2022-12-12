@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node-js</title>
+    <style>
+        .block {
+            background-color: burlywood;
+        }
+
+        .block h1 {
+            text-align: center;
+        }
+
+        .block p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <%- include ('blocks/header.ejs') %>
+    <div class="block">
+        <h1>Новостная страница с ID: <%= newsId %></h1>
+        <p><b>Марка машины: </b><%= object.model %></p>
+        <p><b>Максимальная скорость: </b><%= object.speed %></p>
+        <p><b>Количество колес: </b><%= object.wheels %></p>
+        <ul>
+            <% par.forEach(function(item) { %>
+                <li><%= item %></li>
+            <% }) %>
+        </ul>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ducimus consequatur voluptatibus delectus repudiandae sequi officiis nostrum eius enim error.</p>
+    </div>
+</body>
+</html>

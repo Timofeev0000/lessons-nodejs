@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+
+.block {
+    background-color: darkcyan;
+    border-radius: 3px;
+}
+
+.block h1, p{
+    text-align: center;
+}
